@@ -1,0 +1,18 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  
+  .cards img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  
+
+  }

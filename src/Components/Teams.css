@@ -1,0 +1,39 @@
+.heading{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background-color: blueviolet;
+    color: black;
+}
+
+img{
+    height:300px;
+    max-width: 300px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+img:hover{
+    background-color:rgb(178, 180, 161);
+    border: 10px solid rgb(31, 35, 35);
+    transition: .2s all ease;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1px;
+    width:100%;
+    background-color: beige;
+   
+}
+.container.selected{
+    /* width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 0px solid black;
+    margin: 10px 20px; */
+
+}
